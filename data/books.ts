@@ -58,17 +58,6 @@ export const books: Book[] = [
     isPlaceholder: false,
     sortOrder: 40,
   },
-  {
-    id: "one-person-ai-business",
-    slug: "one-person-ai-business",
-    title: "The One-Person AI Business",
-    coverImage: "/images/books/one-person-ai-business.png",
-    sellingPrice: 49,
-    currency: "INR",
-    isPublished: true,
-    isPlaceholder: false,
-    sortOrder: 50,
-  },
 ];
 
 export function getPublishedBooks() {
